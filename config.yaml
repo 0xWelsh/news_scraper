@@ -1,0 +1,36 @@
+KEYWORDS:
+  avoid:
+  - Celebrity gossip
+  - Sports betting
+  - Rumors
+  - Political drama
+  must_have:
+  - AI
+  - Cybersecurity
+  - Data Breach
+  - Tech Startup
+  - Machine Learning
+  nice_to_have:
+  - Kenya
+  - Africa
+  - Investment
+  - Open-Source
+  - Cloud
+NICHE: Tech & AI (Cybersecurity, AI tools, software updates, startups)
+OUTPUT:
+  DB_PATH: state.db
+  IMAGES_DIR: images
+  MAX_IMAGES: 3
+  OUT_DIR: drafts
+  TOP_K: 5
+REQUEST_SETTINGS:
+  MAX_CONTENT_LENGTH: 200000
+  MIN_CONTENT_LENGTH: 300
+  RETRY_ATTEMPTS: 3
+  THROTTLE_DELAY: 3.0
+  TIMEOUT: 30
+SOURCES:
+- https://arstechnica.com/feed/
+- https://techcrunch.com/feed/
+- https://feeds.feedburner.com/TheHackersNews
+- https://www.wired.com/feed/rss
